@@ -1,0 +1,50 @@
+*{
+    padding:0;
+    margin:0;
+    border:0
+}
+
+header{
+    background-color: rgb(255,255,102);
+	
+}
+#header-logo{
+    width:64px;
+    height:64px;
+}
+#header-msg{
+    font-size: 25px;
+    color:#000;
+}
+#btnOne{
+    background-color:rgb(255,255,102);
+    color:white;
+}
+#btnOne:focus,#btnOne:hover{
+    box-shadow: none;
+    outline:none;
+}
+
+#tableHead{
+    background-color:rgb(255,255,102);
+}
+#searchInput{
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    border-bottom: 1px solid #ced4da;
+}
+#searchInput:hover,#searchInput:focus{
+    box-shadow: none;
+    outline:none;
+}
+
+.slots{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    font-size: 18px;
+}
+
+.slots input{
+    width: 80px;
+}
